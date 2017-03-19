@@ -1,10 +1,11 @@
 # rcache
+
+[![Build Status](https://travis-ci.org/zhangmingkai4315/rcache.svg?branch=master)](https://travis-ci.org/zhangmingkai4315/rcache)
+
 rcache is a node cache module for cache your data. Using rcache, you can set, get, delete the data in your cache, and even custom the auto refresh function to reload the data.
 
 All the functions for handle your cache data will include two ways, sync and async version. So there will be like ```getSync``` or ```getAsync``` function.
 
-
-[![Build Status](https://travis-ci.org/zhangmingkai4315/rcache.svg?branch=master)](https://travis-ci.org/zhangmingkai4315/rcache)
 
 ## Getting started
 
