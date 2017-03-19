@@ -1,0 +1,27 @@
+{
+  "name": "rcache",
+  "version": "0.1.0",
+  "description": "rcache is a node cache module for cache your data. Using rcache you can set, get, delete the data in your cache, and custom the auto refresh function to reload the data.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/cache_test.js",
+    "test:cover":"./node_modules/.bin/istanbul cover node_modules/.bin/_mocha test/cache_test.js"
+  },
+  "keywords": [
+    "cache",
+    "node",
+		"refreshable",
+    "auto-refresh"
+  ],
+  "author": "mike",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "^1.20.2",
+    "mocha": "^3.2.0",
+    "sinon": "^2.0.0",
+		"istanbul": "^0.4.5"
+  }
+}
