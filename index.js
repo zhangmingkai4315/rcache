@@ -64,7 +64,6 @@ rcache.prototype = {
 	keysNumber: function () {
 		return this.stat.keys;
 	},
-
 	// keys function will return all cached keys.
 	// input: ()
 	// return:[key1,key2...]

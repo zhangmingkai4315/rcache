@@ -3,7 +3,6 @@ os:
   - osx
 language: node_js
 node_js:
-  - 0.10
   - 0.12
   - 4.0
   - 4.1
@@ -13,10 +12,6 @@ node_js:
   - 5.12
   - 6
   - 6.6
-  - node
-  - lts/argon
-  - lts/*
-  - iojs
 install: npm install
 after_success:
   - npm run test
